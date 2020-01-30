@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.xwbank.cucumber.CucumberRunner" time="1.336" tests="161" errors="0" skipped="4" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.xwbank.cucumber.CucumberRunner" time="1.297" tests="161" errors="0" skipped="4" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.5+10-LTS"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="D:\maven\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;D:\maven\apache-maven-3.6.3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3 -s D:\maven\apache-maven-3.6.3\conf\settings.xml test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3 -s D:\maven\apache-maven-3.6.3\conf\settings.xml package"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.5"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,20 +63,20 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given x is 4 and y is 5" classname="Scenario: Calculator" time="0.001"/>
+  <testcase name="Given x is 4 and y is 5" classname="Scenario: Calculator" time="0.004"/>
   <testcase name="When invoke add method" classname="Scenario: Calculator" time="0"/>
   <testcase name="Then the result is 9" classname="Scenario: Calculator" time="0"/>
-  <testcase name="Scenario: Calculator" classname="Scenario: Calculator" time="0.002"/>
+  <testcase name="Scenario: Calculator" classname="Scenario: Calculator" time="0"/>
   <testcase name="Given g" classname="Scenario: s1" time="0"/>
   <testcase name="When w" classname="Scenario: s1" time="0"/>
-  <testcase name="Then t" classname="Scenario: s1" time="0"/>
-  <testcase name="Scenario: s1" classname="Scenario: s1" time="0.003"/>
+  <testcase name="Then t" classname="Scenario: s1" time="0.002"/>
+  <testcase name="Scenario: s1" classname="Scenario: s1" time="0.002"/>
   <testcase name="Given gg" classname="Scenario: s2" time="0"/>
   <testcase name="When ww" classname="Scenario: s2" time="0"/>
   <testcase name="Then tt" classname="Scenario: s2" time="0"/>
-  <testcase name="Scenario: s2" classname="Scenario: s2" time="0.001"/>
+  <testcase name="Scenario: s2" classname="Scenario: s2" time="0"/>
   <testcase name="Given ggg" classname="Scenario: s3" time="0"/>
-  <testcase name="When www" classname="Scenario: s3" time="0"/>
+  <testcase name="When www" classname="Scenario: s3" time="0.001"/>
   <testcase name="Then ttt" classname="Scenario: s3" time="0"/>
   <testcase name="Scenario: s3" classname="Scenario: s3" time="0"/>
   <testcase name="Given the name is &quot;alex&quot; and age is 34" classname="Scenario: arguments test" time="0"/>
@@ -93,17 +93,17 @@
   <testcase name="Scenario: Use complex data type" classname="Scenario: Use complex data type" time="0"/>
   <testcase name="假如：给定一个2和3" classname="场景: 中文场景测试" time="0"/>
   <testcase name="当：执行加运算" classname="场景: 中文场景测试" time="0"/>
-  <testcase name="那么：结果肯定打死" classname="场景: 中文场景测试" time="0.001"/>
+  <testcase name="那么：结果肯定打死" classname="场景: 中文场景测试" time="0"/>
   <testcase name="场景: 中文场景测试" classname="场景: 中文场景测试" time="0.001"/>
-  <testcase name="Given alex user open the url or git" classname="Scenario: simple scenario with and but" time="0.002"/>
+  <testcase name="Given alex user open the url or git" classname="Scenario: simple scenario with and but" time="0"/>
   <testcase name="And alex user open the url o jenkins" classname="Scenario: simple scenario with and but" time="0"/>
   <testcase name="When alex click build job link" classname="Scenario: simple scenario with and but" time="0"/>
-  <testcase name="Then alex the job will started" classname="Scenario: simple scenario with and but" time="0.001"/>
+  <testcase name="Then alex the job will started" classname="Scenario: simple scenario with and but" time="0"/>
   <testcase name="When alex click the job or link" classname="Scenario: simple scenario with and but" time="0"/>
   <testcase name="And alex choice the job console" classname="Scenario: simple scenario with and but" time="0"/>
   <testcase name="And alex goto the console page" classname="Scenario: simple scenario with and but" time="0"/>
-  <testcase name="Then alex the job building log will be print" classname="Scenario: simple scenario with and but" time="0.001"/>
-  <testcase name="And alex the last job can see  successfully state" classname="Scenario: simple scenario with and but" time="0.001"/>
+  <testcase name="Then alex the job building log will be print" classname="Scenario: simple scenario with and but" time="0"/>
+  <testcase name="And alex the last job can see  successfully state" classname="Scenario: simple scenario with and but" time="0"/>
   <testcase name="But alex the job will not running at current" classname="Scenario: simple scenario with and but" time="0"/>
   <testcase name="Scenario: simple scenario with and but" classname="Scenario: simple scenario with and but" time="0"/>
   <testcase name="Given x and y value" classname="Scenario: And" time="0"/>
@@ -131,7 +131,7 @@
   <testcase name="When click build job link" classname="Scenario: simple scenario without And But" time="0"/>
   <testcase name="Then the job will started" classname="Scenario: simple scenario without And But" time="0"/>
   <testcase name="When click the job or link" classname="Scenario: simple scenario without And But" time="0"/>
-  <testcase name="When choice the job console" classname="Scenario: simple scenario without And But" time="0"/>
+  <testcase name="When choice the job console" classname="Scenario: simple scenario without And But" time="0.001"/>
   <testcase name="When goto the console page" classname="Scenario: simple scenario without And But" time="0"/>
   <testcase name="Then the job building log will be print" classname="Scenario: simple scenario without And But" time="0"/>
   <testcase name="Then the last job can see  successfully state" classname="Scenario: simple scenario without And But" time="0"/>
@@ -146,15 +146,15 @@
   <testcase name="| alex | 654321 |" classname="| alex | 654321 |" time="0"/>
   <testcase name="Given open the login page testing scenarios outline" classname="Scenario: " time="0"/>
   <testcase name="When use &quot;alex&quot; with password &quot;123456&quot; testing scenarios outline" classname="Scenario: " time="0"/>
-  <testcase name="Then the username and password is right" classname="Scenario: " time="0"/>
-  <testcase name="Scenario: " classname="Scenario: " time="0"/>
+  <testcase name="Then the username and password is right" classname="Scenario: " time="0.004"/>
+  <testcase name="Scenario: " classname="Scenario: " time="0.005"/>
   <testcase name="Scenario: " classname="Scenario: " time="0"/>
   <testcase name="Given open the login page" classname="Scenario: username is wrong" time="0"/>
   <testcase name="When use &quot;chenjiapei&quot; with password &quot;123456&quot;" classname="Scenario: username is wrong" time="0"/>
   <testcase name="Then the user login failed" classname="Scenario: username is wrong" time="0"/>
   <testcase name="Scenario: username is wrong" classname="Scenario: username is wrong" time="0"/>
   <testcase name="Given open the login page" classname="Scenario: password is wrong" time="0"/>
-  <testcase name="When use &quot;alex&quot; with password &quot;434232&quot;" classname="Scenario: password is wrong" time="0"/>
+  <testcase name="When use &quot;alex&quot; with password &quot;434232&quot;" classname="Scenario: password is wrong" time="0.001"/>
   <testcase name="Then the user login failed" classname="Scenario: password is wrong" time="0"/>
   <testcase name="Scenario: password is wrong" classname="Scenario: password is wrong" time="0"/>
   <testcase name="Given open the login page" classname="Scenario: " time="0"/>
@@ -165,29 +165,29 @@
   <testcase name="Then validation the data is inserted" classname="Scenario: Data table Compare" time="0"/>
   <testcase name="When Delete the user Allen" classname="Scenario: Data table Compare" time="0"/>
   <testcase name="Then validation the data after deleted" classname="Scenario: Data table Compare" time="0"/>
-  <testcase name="Scenario: Data table Compare" classname="Scenario: Data table Compare" time="0.001"/>
-  <testcase name="Given the user open the login site" classname="Scenario: transform to raw data" time="0"/>
+  <testcase name="Scenario: Data table Compare" classname="Scenario: Data table Compare" time="0"/>
+  <testcase name="Given the user open the login site" classname="Scenario: transform to raw data" time="0.001"/>
   <testcase name="When lets validate the following user account and email raw data" classname="Scenario: transform to raw data" time="0"/>
   <testcase name="Scenario: transform to raw data" classname="Scenario: transform to raw data" time="0"/>
   <testcase name="Given the user open the login site" classname="Scenario: transform to user-defined" time="0"/>
   <testcase name="When lets validate the following user account and email user-defined" classname="Scenario: transform to user-defined" time="0"/>
   <testcase name="Scenario: transform to user-defined" classname="Scenario: transform to user-defined" time="0"/>
-  <testcase name="Given the user open the login site" classname="Scenario: transform to list-map" time="0.001"/>
+  <testcase name="Given the user open the login site" classname="Scenario: transform to list-map" time="0"/>
   <testcase name="When lets validate the following user account and email list-map" classname="Scenario: transform to list-map" time="0"/>
   <testcase name="Scenario: transform to list-map" classname="Scenario: transform to list-map" time="0"/>
   <testcase name="Given the user open the login site" classname="Scenario: transform to list-list" time="0"/>
   <testcase name="When lets validate the following user account and email list-list" classname="Scenario: transform to list-list" time="0"/>
-  <testcase name="Scenario: transform to list-list" classname="Scenario: transform to list-list" time="0.001"/>
-  <testcase name="Given x is birth at 2019-05-15" classname="Scenario: Date string" time="0.001"/>
+  <testcase name="Scenario: transform to list-list" classname="Scenario: transform to list-list" time="0"/>
+  <testcase name="Given x is birth at 2019-05-15" classname="Scenario: Date string" time="0"/>
   <testcase name="Scenario: Date string" classname="Scenario: Date string" time="0.001"/>
   <testcase name="Given the number is 1" classname="Scenario: Capture" time="0"/>
-  <testcase name="Given the number is 2" classname="Scenario: Capture" time="0"/>
+  <testcase name="Given the number is 2" classname="Scenario: Capture" time="0.001"/>
   <testcase name="Given the number is 3" classname="Scenario: Capture" time="0"/>
-  <testcase name="Scenario: Capture" classname="Scenario: Capture" time="0"/>
+  <testcase name="Scenario: Capture" classname="Scenario: Capture" time="0.002"/>
   <testcase name="Given the capture is 1" classname="Scenario: no Capture" time="0"/>
-  <testcase name="Given the capture is 2" classname="Scenario: no Capture" time="0"/>
-  <testcase name="Given the capture is 3" classname="Scenario: no Capture" time="0"/>
-  <testcase name="Scenario: no Capture" classname="Scenario: no Capture" time="0.001"/>
+  <testcase name="Given the capture is 2" classname="Scenario: no Capture" time="0.001"/>
+  <testcase name="Given the capture is 3" classname="Scenario: no Capture" time="0.001"/>
+  <testcase name="Scenario: no Capture" classname="Scenario: no Capture" time="0.002"/>
   <testcase name="Given this method will be invalid 1" classname="Scenario: invalid 1" time="0"/>
   <testcase name="Scenario: invalid 1" classname="Scenario: invalid 1" time="0"/>
   <testcase name="Given this method will be invalid 2" classname="Scenario: invalid 2" time="0"/>
@@ -207,17 +207,17 @@
     <system-out><![CDATA[==========After==========
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario: send the data to kafka" classname="Scenario: send the data to kafka" time="0.002"/>
+  <testcase name="Scenario: send the data to kafka" classname="Scenario: send the data to kafka" time="0.003"/>
   <testcase name="Given open the github home page" classname="Scenario: gongneng-1" time="0"/>
   <testcase name="Scenario: gongneng-1" classname="Scenario: gongneng-1" time="0"/>
   <testcase name="Given open the github home page" classname="Scenario: gongneng-2" time="0"/>
   <testcase name="Scenario: gongneng-2" classname="Scenario: gongneng-2" time="0"/>
   <testcase name="Given open the github home page" classname="Scenario: gongneng-3" time="0"/>
-  <testcase name="Scenario: gongneng-3" classname="Scenario: gongneng-3" time="0"/>
+  <testcase name="Scenario: gongneng-3" classname="Scenario: gongneng-3" time="0.001"/>
   <testcase name="Given this is background" classname="Scenario: gongneng-4" time="0"/>
   <testcase name="Given open the github home page" classname="Scenario: gongneng-4" time="0"/>
   <testcase name="Scenario: gongneng-4" classname="Scenario: gongneng-4" time="0"/>
-  <testcase name="Given this is background" classname="Scenario: gongneng-5" time="0"/>
+  <testcase name="Given this is background" classname="Scenario: gongneng-5" time="0.001"/>
   <testcase name="Given open the github home page" classname="Scenario: gongneng-5" time="0"/>
   <testcase name="Scenario: gongneng-5" classname="Scenario: gongneng-5" time="0"/>
   <testcase name="Given this is background" classname="Scenario: gongneng-6" time="0"/>
@@ -236,7 +236,7 @@ Feature: test cucumber run dry
     <skipped/>
   </testcase>
   <testcase name="Scenario: this is a sacanrio run" classname="Scenario: this is a sacanrio run" time="0"/>
-  <testcase name="Given URl is ok" classname="Scenario: Chinese to English" time="0"/>
+  <testcase name="Given URl is ok" classname="Scenario: Chinese to English" time="0.001"/>
   <testcase name="When User enters the URL" classname="Scenario: Chinese to English" time="0"/>
   <testcase name="Then app page loads" classname="Scenario: Chinese to English" time="0"/>
   <testcase name="Scenario: Chinese to English" classname="Scenario: Chinese to English" time="0"/>
