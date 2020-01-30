@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.xwbank.cucumber.CucumberRunner
--------------------------------------------------------------------------------
-Tests run: 161, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 1.297 sec - in com.xwbank.cucumber.CucumberRunner
