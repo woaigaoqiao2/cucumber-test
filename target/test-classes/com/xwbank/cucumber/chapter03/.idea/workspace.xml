@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ce63a0e-cb57-4c9e-9f8c-bf5e49f10da2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../.." />
+  </component>
+  <component name="ProjectId" id="1X6i2MBfifOgfQHHl6386smT7oB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../cucumber-test" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ce63a0e-cb57-4c9e-9f8c-bf5e49f10da2" name="Default Changelist" comment="" />
+      <created>1580372736943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580372736943</updated>
+      <workItem from="1580372738645" duration="69000" />
+      <workItem from="1580372868455" duration="398000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1144" y="311" key="FileChooserDialogImpl" timestamp="1580373133109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1144" y="311" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580373133109" />
+    <state x="1004" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1580372895116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1004" y="357" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580372895116" />
+    <state x="931" y="91" width="786" height="885" key="find.popup" timestamp="1580373034360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="931" y="91" width="786" height="885" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580373034360" />
+  </component>
+</project>
