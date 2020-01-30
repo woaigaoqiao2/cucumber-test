@@ -1,7 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: com.xwbank.cucumber.CucumberRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.04 sec <<< FAILURE! - in com.xwbank.cucumber.CucumberRunner
-initializationError(com.xwbank.cucumber.CucumberRunner)  Time elapsed: 0.013 sec  <<< ERROR!
-java.lang.UnsupportedClassVersionError: com/xwbank/cucumber/chapter01/Calculator has been compiled by a more recent version of the Java Runtime (class file version 56.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.055 sec <<< FAILURE! - in com.xwbank.cucumber.CucumberRunner
+initializationError(com.xwbank.cucumber.CucumberRunner)  Time elapsed: 0.018 sec  <<< ERROR!
+cucumber.runtime.CucumberException: java.lang.TypeNotPresentException: Type com.xwbank.cucumber.chapter02.Account not present
+Caused by: java.lang.TypeNotPresentException: Type com.xwbank.cucumber.chapter02.Account not present
+Caused by: java.lang.ClassNotFoundException: com.xwbank.cucumber.chapter02.Account
 
